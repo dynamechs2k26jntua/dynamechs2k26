@@ -642,10 +642,9 @@ const HeroSection = () => (
           <div className="relative z-10 bg-white/40 backdrop-blur-2xl p-6 rounded-[60px] shadow-[0_50px_120px_-30px_rgba(0,0,0,0.2)] border border-white/60">
             <div className="overflow-hidden rounded-[48px] relative group">
               <img 
-                src="https://picsum.photos/seed/mechanical-innovation/1200/1200" 
-                alt="Mechanical Engineering Innovation" 
+                src="/src/assets/Dynamechs.png" 
+                alt="DYNAMECHS 2K26" 
                 className="w-full h-auto object-cover scale-105 group-hover:scale-110 transition-transform duration-1000"
-                referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             </div>
