@@ -27,6 +27,7 @@ import {
   Lightbulb,
   Rocket
 } from 'lucide-react';
+import DynamechsPoster from './assets/Dynamechs.png';
 
 // --- Data ---
 
@@ -637,12 +638,12 @@ const HeroSection = () => (
           initial={{ opacity: 0, scale: 0.8, x: 50 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
-          className="hidden lg:block relative"
+          className="relative"
         >
           <div className="relative z-10 bg-white/40 backdrop-blur-2xl p-6 rounded-[60px] shadow-[0_50px_120px_-30px_rgba(0,0,0,0.2)] border border-white/60">
             <div className="overflow-hidden rounded-[48px] relative group">
               <img 
-                src="/src/assets/Dynamechs.png" 
+                src={DynamechsPoster} 
                 alt="DYNAMECHS 2K26" 
                 className="w-full h-auto object-cover scale-105 group-hover:scale-110 transition-transform duration-1000"
               />
